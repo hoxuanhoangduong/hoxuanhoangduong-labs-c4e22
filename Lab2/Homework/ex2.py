@@ -19,7 +19,7 @@ for tr in tr_list:
     subject_list = tr.find_all(text = True)
     for subject in subject_list:
         subject_data = {
-            '':subject,
+            'Subject':subject,
         }
         data_list.append(subject_data)
 
